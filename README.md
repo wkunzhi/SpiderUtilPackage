@@ -16,7 +16,7 @@
 
 -------
 ## 工具表
-- [x] [代理IP-芝麻代理-取器过滤器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
+- [x] [代理IP-芝麻代理-提取过滤器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [x] [代理IP-提取redis存活IP器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 
 
@@ -32,7 +32,7 @@
 .
 ├── Proxy                               //      代理工具包 
 │   ├── ZhiMaFilter.py                  // 芝麻代理ip清洗工具
-│   └── Demo.py                         // 给予上个工具提取redis存活IP器
+│   └── Demo.py                         // 基于上个工具提取redis存活IP器
 └── README.md
 
 ```
@@ -52,7 +52,7 @@
 1. IP提取过滤器
 2. 提取redis存活IP器
 
-![image](https://www.zhangkunzhi.com/images/WX20190423-220327.png)
+![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/%E8%8A%9D%E9%BA%BB3.png)
 
 
 
