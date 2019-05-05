@@ -28,10 +28,19 @@
 ------
 
 
+
 # 使用说明
 - python 3.7.2
 - redis 5.0.4
 - apscheduler 3.6.0
+
+
+```bush
+pip3 install redis
+pip3 install apscheduler
+pip3 install reuqest
+pip3 install python-dateutil
+```
 
 1. 首先登陆你的芝麻代理后台管理，找到自己的key如图
     ![key位置](https://www.zhangkunzhi.com/images/芝麻1.png)

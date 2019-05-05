@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b715ac4-8a1e-4d8d-9a02-1accfdf413d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Proxy/CleanProxyPool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/ZhiMaFilter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="476">
-                <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+              <first_editor relative-caret-position="1008">
+                <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -34,21 +31,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/CleanProxyPool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
-              <folding>
-                <element signature="e#94#106#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Proxy/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="68" selection-end-column="1" />
+              <first_editor relative-caret-position="756">
+                <caret line="42" selection-start-line="42" selection-end-line="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,13 +66,13 @@
       <list>
         <option value="$PROJECT_DIR$/Proxy/ZhiMaFilter.py" />
         <option value="$PROJECT_DIR$/Proxy/CleanProxyPool.py" />
-        <option value="$PROJECT_DIR$/Proxy/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Proxy/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
+    <option name="x" value="399" />
     <option name="y" value="23" />
     <option name="width" value="1626" />
     <option name="height" value="1027" />
@@ -91,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,12 +164,14 @@
       <updated>1556595463390</updated>
       <workItem from="1556595464660" duration="6505000" />
       <workItem from="1556610074919" duration="12000" />
-      <workItem from="1556807736669" duration="515000" />
+      <workItem from="1556807736669" duration="577000" />
+      <workItem from="1557065592163" duration="66000" />
+      <workItem from="1557065925385" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7032000" />
+    <option name="totallyTimeSpent" value="7242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -218,41 +214,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/ZhiMaFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1990">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="e#96#111#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Proxy/ZhiMaFilter.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1008">
+            <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/CleanProxyPool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="e#94#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="68" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <first_editor relative-caret-position="756">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
           </first_editor>
           <second_editor />
         </state>
