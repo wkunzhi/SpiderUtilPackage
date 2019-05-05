@@ -42,7 +42,7 @@ class ZhiMaPool(object):
         Initialize the proxy
         """
         print('\033[1;35m初始化中...\033[0m')
-        response = requests.get('https://pv.sohu.com/cityjson?ie=utf-8')
+        response = requests.get('http://pv.sohu.com/cityjson?ie=utf-8')
 
         address = re.search(r'"cip": "(.*?)", "cid', response.text).group(1)
 
