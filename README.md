@@ -78,6 +78,13 @@
 
 
 ## 使用说明
+```bush
+pip3 install redis
+pip3 install apscheduler
+pip3 install reuqest
+pip3 install python-dateutil
+```
+
 - python 3.7.2
 - redis 5.0.4
 - apscheduler 3.6.0

@@ -65,15 +65,21 @@ class ZhiMaPool(object):
         now_time = int(time.time())
         nodes = self.r.zrevrange('ZhiMaProxy', 0, -1, withscores=True)
         for i in nodes:
+            flag = False
             node = list(i)
-            score = str(int(node[1]))
-            time_stamp = int(score[2:])
+            score_str = str(int(node[1]))
+            time_stamp = int(score_str[-10:])
             if time_stamp-now_time <= 0:
                 print('代理过期删除', str(node[0]))
                 self.r.zrem('ZhiMaProxy', node[0])
-            score = int(score[:-10])
+            if len(score_str[:-10]) == 0:
+                flag = True  # 删除
+            else:
+                # 可能由于频率过快出现负数
+                if int(node[1]) < 0:
+                    flag = True  # 删除
 
-            if score <= 0:
+            if flag:
                 print('分数过低剔除')
                 self.r.zrem('ZhiMaProxy', node[0])
 
