@@ -3,7 +3,6 @@
 # Date: 2019-05-2  Python: 3.7
 import redis
 import datetime
-import logging
 import requests
 import json
 import re
@@ -17,11 +16,9 @@ class ZhiMaPool(object):
     """
     芝麻代理按次提取(非套餐)代理IP
     """
-    logging.basicConfig()
-    logging.getLogger('apscheduler').setLevel(logging.ERROR)
 
     """redis数据库配置区"""
-    pool = redis.ConnectionPool()
+    pool = redis.ConnectionPool(decode_responses=True)
     r = redis.Redis(connection_pool=pool)
 
     def __init__(self, key, ip_sum=20, ttl=1000):
@@ -88,31 +85,17 @@ class ZhiMaPool(object):
         if _sum < self.ip_sum:
             self.add_ip(count=self.ip_sum-_sum)
 
-    def add_ip(self, count=1, time_type=1, ip_type='1'):
+    def add_ip(self, count=1, time_type=1, ip_type='http'):
         """
         get proxy ip and port
         """
-        ip_type = '11' if ip_type == 'https' else '1'  # http(default) & https
+        port = '11' if ip_type == 'https' else '1'  # http(default) & https
 
-        get_url = 'http://webapi.http.zhimacangku.com/getip'
+        get_url = 'http://webapi.http.zhimacangku.com/getip?num={num}&type=2&pro=&city=0&yys=0&port={port}&time={time}&ts=1&ys=0&cs=0&lb=1&sb=0&pb=4&mr=1&regions='.format(
+            num=count, port=port, time=time_type)
 
-        params = {
-            'num': str(count),
-            'type': '2',
-            'pro': '',
-            'city': '0',
-            'port': ip_type,
-            'time': time_type,  # 1=5m~25m   2=25m~3h  3=3h~6h  4=6h~12h
-            'ts': '1',
-            'ys': '0',
-            'cs': '0',
-            'lb': '1',
-            'sb': '0',
-            'pb': '4',
-            'mr': '1',
-            'regions': ''
-        }
-        response = requests.get(get_url, params=params)
+        # time 1=5m~25m   2=25m~3h  3=3h~6h  4=6h~12h
+        response = requests.get(get_url)
         self.parse(response.text)
 
     def del_ip(self):
