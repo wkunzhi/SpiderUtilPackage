@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b715ac4-8a1e-4d8d-9a02-1accfdf413d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Proxy/CleanProxyUseDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1386">
-                <caret line="77" selection-start-line="77" selection-end-line="77" />
+              <first_editor relative-caret-position="379">
+                <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/CleanProxyUseDemo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -70,9 +69,9 @@
       <list>
         <option value="$PROJECT_DIR$/Proxy/ZhiMaFilter.py" />
         <option value="$PROJECT_DIR$/Proxy/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Proxy/CleanProxyPool.py" />
         <option value="$PROJECT_DIR$/Proxy/CleanProxyUseDemo.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -200,12 +199,12 @@
       <workItem from="1557128543536" duration="2500000" />
       <workItem from="1557131189497" duration="14000" />
       <workItem from="1557146329734" duration="4311000" />
-      <workItem from="1557189960950" duration="771000" />
+      <workItem from="1557189960950" duration="859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15133000" />
+    <option name="totallyTimeSpent" value="15221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1600" height="877" extended-state="6" />
@@ -259,16 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1386">
-            <caret line="77" selection-start-line="77" selection-end-line="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/CleanProxyPool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -286,6 +275,16 @@
           <folding>
             <element signature="e#95#107#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="379">
+            <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

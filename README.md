@@ -32,7 +32,7 @@
 .
 ├── Proxy                               //      代理工具包 
 │   ├── CleanProxyPool.py               // 芝麻代理ip清洗工具
-│   └── Demo.py                         // 基于上个工具提取redis存活IP器
+│   └── CleanProxyUseDemo.py            // 基于上个工具提取并积分Demo
 └── README.md
 
 ```
