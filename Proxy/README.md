@@ -1,39 +1,6 @@
-> 爬虫经常会用到代理ip，其中有很多收费ip，但是如何在scrapy中，高效使用这些ip是一个比较麻烦的事情，在这里基于[芝麻代理ip](http://h.zhimaruanjian.com/pay/)做一个代理池监控器，首先整理我们的需求
+[TOC]
 
-# 整理需求
-> 芝麻付费代理 取ip是不要钱，只有使用才收费，针对这个特点，可以让我们代理池24小时始终保持指定数量的ip即使没有使用
-
-- [x] 需要监控**ip是否过期**，如果已经过期就从池中删除
-- [x] 监控访问目标网址的**成功率**，将成功率低的自动剔除
-- [x] 让ip池长期保持设定的**ip数量**，以便随时取用
-
-
-# 服务端
-- [x] 程序需要在服务端24小时运行
-- [x] 实时监控，默认2秒频率 `apscheduler模块`
-- [x] `redis的有序集合`积分板功能作为ip储存，所以程序最好是放于redis同服务器或者同内网上保障实时读写效率
-- [x] 提取IP的时候，有效存活时间过短的自动放弃(不入库)自动筛选
-- [x] **监控内容**：
-    - 扫描每个IP过期时间，到期删除
-    - 总个数小于预设值就申请新的IP且值初始ip质量分=10
-    - 积分 = 'ip质量分' + '到期时间戳'  例如：  101556616966  后面10位是时间戳，前面是分数10。
-- [x] **注意**： 分数加减只是对前面2位进行加减，后面10位是时间戳用来比对时间
-
-# 爬虫端
-- [x] 中间键配置代理ip从redis中 random.choice()出ip
-- [x] 访问成功 质量分数+1 访问失败 质量分数-1
-
-> 这样一来一个简易版的IP池管理工具就搞定了，池中一直会保持可用的**新鲜IP**
-
-------
-
-
-
-# 使用说明
-- python 3.7.2
-- redis 5.0.4
-- apscheduler 3.6.0
-
+# 安装模块
 
 ```bush
 pip3 install redis
@@ -41,6 +8,22 @@ pip3 install apscheduler
 pip3 install reuqest
 pip3 install python-dateutil
 ```
+
+# 讯代理池使用 
+1. 登陆讯代理 进入API页码将下面下方生成的API复制
+    ![讯代理API](https://www.zhangkunzhi.com/images/xdl3.png)
+    
+2. 将链接复制到项目该位置
+    ![讯代理API](https://www.zhangkunzhi.com/images/xdl4.png)
+ 
+3. 配置redis， 默认是本机
+    ![讯代理API](https://www.zhangkunzhi.com/images/xdl5.png)
+ 
+4. 启动程序，大功告成，只需要在调用ip的时候对其进行增减分操作即可
+    ![讯代理API](https://www.zhangkunzhi.com/images/xdl1.png)
+    ![讯代理API](https://www.zhangkunzhi.com/images/xdl2.png)
+
+# 芝麻代理池使用
 
 1. 首先登陆你的芝麻代理后台管理，找到自己的key如图
     ![key位置](https://www.zhangkunzhi.com/images/芝麻1.png)
