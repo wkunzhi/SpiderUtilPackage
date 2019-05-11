@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b715ac4-8a1e-4d8d-9a02-1accfdf413d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Proxy/XDLProxyPool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/XDLProxyUseDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/CleanProxyPool.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/ZhiMaProxyPool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/CleanProxyUseDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/ZhiMaProxyUseDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/ZhiMaProxyUseDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/ZhiMaProxyUseDemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,62 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/ZhiMaProxyPool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
-              <folding>
-                <element signature="e#94#106#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/ZhiMaProxyUseDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-              <folding>
-                <element signature="e#95#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyPool.py">
+        <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyUseDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+            <state relative-caret-position="288">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#95#107#0" expanded="true" />
+                <element signature="e#96#108#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,6 +61,8 @@
         <option value="$PROJECT_DIR$/Proxy/XDLProxyPool.py" />
         <option value="$PROJECT_DIR$/Proxy/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Proxy/ZhiMaProxyUseDemo.py" />
+        <option value="$PROJECT_DIR$/Proxy/XDLProxyUseDemo.py" />
       </list>
     </option>
   </component>
@@ -266,15 +217,16 @@
       <workItem from="1557193576348" duration="770000" />
       <workItem from="1557394507749" duration="1094000" />
       <workItem from="1557395676800" duration="163000" />
-      <workItem from="1557464667998" duration="6466000" />
+      <workItem from="1557464667998" duration="6740000" />
+      <workItem from="1557537203778" duration="444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23750000" />
+    <option name="totallyTimeSpent" value="24468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="1626" height="1027" extended-state="6" />
+    <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1605166" />
@@ -325,11 +277,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyPool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+          <folding>
+            <element signature="e#95#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="414">
-            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
         </state>
@@ -337,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/ZhiMaProxyPool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="2898">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
           <folding>
             <element signature="e#94#106#0" expanded="true" />
           </folding>
@@ -347,20 +309,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/ZhiMaProxyUseDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="540">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="e#95#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyPool.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyUseDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#95#107#0" expanded="true" />
+            <element signature="e#96#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
