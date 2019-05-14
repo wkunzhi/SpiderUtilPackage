@@ -21,6 +21,7 @@
 - [x] [代理IP-芝麻代理池客户端Demo](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [x] [代理IP-讯代理池监控器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [x] [代理IP-讯代理池客户端Demo](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
+- [x] [cookies获取-pyppeteer获取美团登陆cookies](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Cookies)
 
 
 -------
@@ -40,6 +41,8 @@
 │   └── XDLProxyUseDemo.py              // 讯代理池客户端使用Demo
 ├── Register                            //      注册类工具
 │   └── MessageCode.py                  // 异步验证短信接收器
+├── Cookies                             //      Cookies获取
+│   └── MeiTuan                         // 异步并发批量获取美团登陆Cookies
 └── README.md
 
 ```
@@ -67,3 +70,12 @@
 启动后会根据设置的异步并发数进行获取手机号码并监听短信接收情况（60秒） 超过60秒后会将未收到短信的手机号拉入黑名单，并是释放。
 
 若要配置具体某个网站使用，还需开发对应的账号注册器，配合调用本短信接收器来达到自动注册账号的功能
+
+<hr>
+
+# cookies获取Demo
+
+> 基于Pyppeteer 并发获取站点cookies
+- 美团登陆cookies
+![](https://www.zhangkunzhi.com/images/异步获取cookies.png)
+
