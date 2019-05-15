@@ -22,6 +22,7 @@
 - [x] [代理IP-讯代理池监控器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [x] [代理IP-讯代理池客户端Demo](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [x] [cookies获取-pyppeteer获取美团登陆cookies](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Cookies)
+- [x] [跨数据库迁移器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/DataMigration)
 
 
 -------
@@ -43,6 +44,9 @@
 │   └── MessageCode.py                  // 异步验证短信接收器
 ├── Cookies                             //      Cookies获取
 │   └── MeiTuan                         // 异步并发批量获取美团登陆Cookies
+├── DataMigration                       //      跨数据库迁移
+│   ├── db                              // 基础数据库封装包
+│   └── migration                       // 迁移器
 └── README.md
 
 ```
@@ -79,3 +83,9 @@
 - 美团登陆cookies
 ![](https://www.zhangkunzhi.com/images/异步获取cookies.png)
 
+
+# 跨数据库迁移器
+**工作中经常有这种需求**
+> 将采集好的mongodb数据转存到mysql中，或者是redis数据转到mongodb，于是打算封装一个组件便于以后调用
+
+所以该组件解决了一些基础迁移功能
