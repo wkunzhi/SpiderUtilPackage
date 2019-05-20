@@ -23,7 +23,8 @@ MYSQL_USER = 'root'
 MYSQL_PASSWORD = ''
 
 # Mysql链接库
-MYSQL_DB_NAME = 'security_enterprise'
+MYSQL_DB_NAME = 'travel'
+
 
 
 
