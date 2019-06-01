@@ -5,44 +5,42 @@
 import base64
 import zlib
 
+COLOR = {'red': 1, 'green': 2, 'yellow': 3, 'blue': 4}
+
 
 class TranslationMetaClass(type):
     """Meta 类"""
     def __new__(mcs, name, bases, attrs):
         count = 0
-        attrs['__Decode__'] = []
+        attrs['__Decode__'] = {}
         for k, v in attrs.items():
             if 'decode_' in k:
                 count += 1
-                attrs['__Decode__'].append({count:k})
-        print(attrs['__Decode__'])
+                attrs['__Decode__'][str(count)] = k
         attrs['__TranslationFuncCount__'] = count
         return type.__new__(mcs, name, bases, attrs)
 
 
 class Util(object):
     """辅助类"""
+
     @staticmethod
     def _print(color, msg):
-        """打印颜色控制
+        """print color control
         """
         node = '\033[1;3{id}m{msg}\033[0m'
-        if color == 'yellow':
-            print(node.format(id=3, msg=msg))
-        elif color == 'red':
-            print(node.format(id=1, msg=msg))
-        elif color == 'green':
-            print(node.format(id=2, msg=msg))
-        elif color == 'blue':
-            print(node.format(id=4, msg=msg))
+        if COLOR.get(color):
+            print(node.format(id=COLOR.get(color), msg=msg))
         else:
-            print(node.format(id=7, msg=msg))
+            print(msg)
 
     def msg(self):
-        msg = """1. base64 解码\n2. 解压字符串\n3. 转 16 进制\n"""
-        self._print('yellow', msg)
+        """print decode func
+        """
+        for k in self.__Decode__:
+            self._print('yellow', str(k) + ': ' + self.__Decode__[k][7:])
         print('b: 【返回】  e: 【退出】')
-        return input('>>>').lower()
+        return input('请选择>>>').lower()
 
 
 class Decode(Util, metaclass=TranslationMetaClass):
@@ -57,12 +55,12 @@ class Decode(Util, metaclass=TranslationMetaClass):
     def main(self):
         choice = self.msg()
         while choice != 'e':
-            if choice == '1':
-                self.decode_base64()
-            elif choice == '2':
-                self.decode_zlib()
-            elif choice == '3':
-                self.decode_hex()
+            if choice in self.__Decode__:  # 选择是否在现有函数选项中
+                # 字符串转函数运行
+                try:
+                    eval("self.{}()".format(self.__Decode__[choice]))
+                except Exception as e:
+                    self._print('red', '该方法解码失败，请换一种')
             self._print('blue', self._key)
             choice = self.msg()
         self._print('red', '调试结束')
