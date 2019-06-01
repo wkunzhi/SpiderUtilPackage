@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # __author__ = "zok"  362416272@qq.com
-# Date: 2019-05-20  Python: 3.7
+# Date: 2019-05-23  Python: 3.7
 
 
 from DataMigration.db.MongoDB import Mongo
@@ -9,7 +9,7 @@ from DataMigration.config import MYSQL_DB_NAME
 
 
 class Migrate(object):
-    def __init__(self, mysql_table_name, mongodb_name, mongodb_collection):
+    def __init__(self,mysql_table_name, mongodb_name, mongodb_collection):
         self.mongo = Mongo(mongodb_name, mongodb_collection)
         self.mysql = Mysql()
         self.mysql_name = mysql_table_name
