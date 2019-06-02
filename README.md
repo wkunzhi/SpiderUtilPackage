@@ -16,6 +16,7 @@
 
 -------
 ## 工具表
+- [x] [解密工具-可拓展式解密器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Decode)
 - [x] [自动注册-验证短信接收器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Register)
 - [x] [代理IP-芝麻代理池监控器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [x] [代理IP-芝麻代理池客户端Demo](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
@@ -47,10 +48,21 @@
 ├── DataMigration                       //      跨数据库迁移
 │   ├── db                              // 基础数据库封装包
 │   └── migration                       // 迁移器
+├── Decode                              //      可拓展式解密器
 └── README.md
 
 ```
+<hr>
 
+
+
+# 可拓展式解密器
+
+[**博客传送门**](https://blog.zhangkunzhi.com/2019/06/02/%E5%8E%9F%E5%88%9B%E5%B7%A5%E5%85%B7%E4%B9%8B%E5%8F%AF%E6%8B%93%E5%B1%95%E8%A7%A3%E7%A0%81%E5%99%A8/index.html)
+
+> 方便测试可连续转换重制的编码转换器，可灵活拓展解码规则
+
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/特殊.gif)
 
 <hr>
 
@@ -63,7 +75,7 @@
 
 > 爬虫经常会用到代理ip，其中有很多收费ip，但是如何在scrapy中，高效使用这些ip是一个比较麻烦的事情，在这里基于[芝麻代理ip](http://h.zhimaruanjian.com/pay/)做一个代理池监控器，首先整理我们的需求再对其代理质量进行管理，从而保持高效IP使用率
 
-
+![key位置](https://www.zhangkunzhi.com/images/提取ip.png)
 
 
 <hr>

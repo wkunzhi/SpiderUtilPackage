@@ -52,21 +52,24 @@ class Decode(Util, metaclass=TranslationMetaClass):
     def __init__(self, _key):
         self._key = _key
         self._copy = _key
+        self.crumbs = ''
 
     def main(self):
         choice = self.msg()
         while choice != 'e':
-            if choice in self.__Decode__:  # 选择是否在现有函数选项中
+            if choice == 'r':  # 重制
+                self._key, self.crumbs = self._copy, ''
+                self._print('blue', '重制成功: ' + self._key)
+                choice = self.msg()
+            elif choice in self.__Decode__:  # 选择是否在现有函数选项中
                 try:
                     eval("self.{}()".format(self.__Decode__[choice]))  # 字符串转函数运行
                     self._print('blue', self._key)
+                    self.crumbs += self.__Decode__[choice][7:] + ' > '
+                    self._print('green', self.crumbs)
                     choice = self.msg()
                 except Exception:
                     choice = input('解码失败，换一种 >>>')
-            elif choice == 'r':  # 重制
-                self._key = self._copy
-                self._print('blue', '重制成功: '+self._key)
-                choice = self.msg()
 
         self._print('red', '调试结束')
 
@@ -88,9 +91,7 @@ class Decode(Util, metaclass=TranslationMetaClass):
 
 
 if __name__ == '__main__':
-    # 测试 eJyrVnqxZdnT/u1KVgpKpcWpRUo6CkpP17c9X9AIEilILC4uzy9KUaoFAGxTEMo=
-    # _key = 'YyJr8BeAz5P07Lf/Dp2us2CYTYYLk4VmKCOrFfeAgB8u4wA/y9F+lT19vsPeFxnCBzH/myCrIeeJ52nzShYKmulf1+Fl6H6R2pg4NbBnIKMo9L1xcFcmF2e9vCPaJ8X70r2CtKXny8lP9KBVDkSz9w=='
-    # 补充面包屑
+    # _key = 'eJyrVnqxZdnT/u1KVgpKpcWpRUo6CkpP17c9X9AIEilILC4uzy9KUaoFAGxTEMo='  # 测试
     _key = input('\033[1;31m输入解码内容>>> \033[0m')
     ts = Decode(_key)
     ts.main()
