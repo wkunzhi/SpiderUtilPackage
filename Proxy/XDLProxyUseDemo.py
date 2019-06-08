@@ -42,7 +42,7 @@ class DownloaderMiddleware(object):
     def process_response(self, request, response, spider):
         # 对代理ip进行清洗
         proxy = request._meta.get('proxy')
-        if response.status == 200:
+        if not response.status == 200:
             print('IP访问失败')
             if proxy:
                 proxy = proxy[proxy.find('/')+2:]  # 提取当此访问proxy
@@ -68,7 +68,7 @@ class DownloaderMiddleware(object):
 setting中配置
 """
 DOWNLOAD_TIMEOUT = 5  # 有的时候代理ip失效，会导致一直卡在那里 ，也有可能是用http 访问https
-OWNLOADER_MIDDLEWARES = {
+DOWNLOADER_MIDDLEWARES = {
     'middlewares.MyProxy': 543,  # 自定义代理IP
     'middlewares.spiderDownloaderMiddleware': 600,  # 拦截301、302等跳转  必须设置到600
 }
