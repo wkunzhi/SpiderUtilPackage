@@ -27,7 +27,7 @@ class MyProxy(object):
     """代理IP设置"""
     def process_request(self, request, spider):
         # 此处对接redis
-        data = r.zrange('XDLProxy', 0, -1, withscores=True)
+        data = r.zrangebyscore('XDLProxy', 1, 100, withscores=True)
         ip, score = random.choice(data)
         request.meta['proxy'] = 'http://'+ip  # 根据自己情况填写
 
