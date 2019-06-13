@@ -9,6 +9,10 @@ import json
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 
+"""
+可自型拓展其他的代理ip产品，只需修改调用接口即可
+"""
+
 
 class XDLProxyPool(object):
     """
