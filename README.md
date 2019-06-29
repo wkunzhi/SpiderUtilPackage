@@ -26,6 +26,7 @@
 - [x] [cookies获取-pyppeteer获取美团登陆cookies](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Cookies)
 - [x] [跨数据库迁移器-开发中](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/DataMigration)
 - [x] [网络图片并发直传OSS](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/OSS)
+- [x] [生成encrypt加密参数器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Jsencrypt)
 
 
 -------
@@ -51,6 +52,7 @@
 │   ├── db                              // 基础数据库封装包
 │   └── migration                       // 迁移器
 ├── Decode                              //      可拓展式解密器
+├── Jsencrypt                           //      自动生成encrypt加密
 └── README.md
 
 ```
