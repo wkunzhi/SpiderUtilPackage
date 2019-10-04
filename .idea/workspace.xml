@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b715ac4-8a1e-4d8d-9a02-1accfdf413d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VerificationCode/CJY.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/XDLProxyPool.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/XDLProxyPool.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,89 +13,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SpiderUtilPackage$translation__1_.coverage" NAME="translation (1) Coverage Results" MODIFIED="1564480867194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decode" />
+    <SUITE FILE_PATH="coverage/SpiderUtilPackage$translation__1_.coverage" NAME="translation (1) Coverage Results" MODIFIED="1570155191022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decode" />
+    <SUITE FILE_PATH="coverage/SpiderUtilPackage$CJY.coverage" NAME="CJY Coverage Results" MODIFIED="1570158763543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VerificationCode" />
     <SUITE FILE_PATH="coverage/SpiderUtilPackage$CleanProxyPool.coverage" NAME="CleanProxyPool Coverage Results" MODIFIED="1557152420985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
     <SUITE FILE_PATH="coverage/SpiderUtilPackage$ZhiMaFilter.coverage" NAME="ZhiMaFilter Coverage Results" MODIFIED="1556604139493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
     <SUITE FILE_PATH="coverage/SpiderUtilPackage$translation.coverage" NAME="translation Coverage Results" MODIFIED="1559438826130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decode_str" />
+    <SUITE FILE_PATH="coverage/SpiderUtilPackage$test.coverage" NAME="test Coverage Results" MODIFIED="1570155451795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpiderUtilPackage$mysql_to_mongo.coverage" NAME="mysql_to_mongo Coverage Results" MODIFIED="1558322752395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataMigration/migration" />
     <SUITE FILE_PATH="coverage/SpiderUtilPackage$KDLProxyPool.coverage" NAME="KDLProxyPool Coverage Results" MODIFIED="1560738095147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
-    <SUITE FILE_PATH="coverage/SpiderUtilPackage$XDLProxyPool.coverage" NAME="XDLProxyPool Coverage Results" MODIFIED="1557473312102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/SpiderUtilPackage$XDLProxyPool.coverage" NAME="XDLProxyPool Coverage Results" MODIFIED="1568270211584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Decode/translation.py">
+        <entry file="file://$PROJECT_DIR$/VerificationCode/CJY.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="440">
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
               <folding>
-                <element signature="e#96#109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OSS/push_to_oss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="990">
-                <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/KDLProxyPool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataMigration/migration/mongo_to_mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#97#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataMigration/db/Mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="e#95#109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataMigration/db/Redis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#96#108#0" expanded="true" />
+                <element signature="e#192#207#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,20 +84,23 @@
         <option value="$PROJECT_DIR$/decode_str/translation.py" />
         <option value="$PROJECT_DIR$/Decode/README.md" />
         <option value="$PROJECT_DIR$/Proxy/XDLProxyUseDemo.py" />
-        <option value="$PROJECT_DIR$/Proxy/XDLProxyPool.py" />
         <option value="$PROJECT_DIR$/Proxy/KDLProxyPool.py" />
         <option value="$PROJECT_DIR$/DataMigration/db/Redis.py" />
         <option value="$PROJECT_DIR$/Jsencrypt/make_encrypt.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Decode/translation.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Proxy/XDLProxyPool.py" />
+        <option value="$PROJECT_DIR$/VerificationCode/config.py" />
+        <option value="$PROJECT_DIR$/VerificationCode/CJY.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="102" />
+    <option name="y" value="241" />
+    <option name="width" value="1620" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,7 +121,7 @@
             <path>
               <item name="SpiderUtilPackage" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiderUtilPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="Decode" type="462c0819:PsiDirectoryNode" />
+              <item name="VerificationCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,15 +137,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Cookies" />
-      <recent name="$PROJECT_DIR$/Cookies/MeiTuan" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/OSS" />
       <recent name="$PROJECT_DIR$/decode" />
       <recent name="$PROJECT_DIR$/DataMigration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cookies" />
+      <recent name="$PROJECT_DIR$/Cookies/MeiTuan" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +160,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.translation (1)">
+  <component name="RunManager" selected="Python.CJY">
+    <configuration name="CJY" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiderUtilPackage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VerificationCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VerificationCode/CJY.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="KDLProxyPool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderUtilPackage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_to_mongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderUtilPackage" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataMigration/migration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataMigration/migration/mysql_to_mongo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,35 +271,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="translation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiderUtilPackage" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decode_str" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decode_str/translation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CJY" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.translation (1)" />
-        <item itemvalue="Python.KDLProxyPool" />
-        <item itemvalue="Python.translation" />
-        <item itemvalue="Python.mysql_to_mongo" />
         <item itemvalue="Python.XDLProxyPool" />
+        <item itemvalue="Python.KDLProxyPool" />
       </list>
     </recent_temporary>
   </component>
@@ -396,21 +337,28 @@
       <workItem from="1564480862078" duration="61000" />
       <workItem from="1565162944399" duration="61000" />
       <workItem from="1565235139699" duration="4000" />
+      <workItem from="1566461778366" duration="375000" />
+      <workItem from="1566614580335" duration="1741000" />
+      <workItem from="1566739610225" duration="58000" />
+      <workItem from="1566889130767" duration="246000" />
+      <workItem from="1568270199306" duration="269000" />
+      <workItem from="1570155151945" duration="2232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71647000" />
+    <option name="totallyTimeSpent" value="76568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="2560" height="1417" extended-state="0" />
+    <frame x="56" y="23" width="1624" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09882812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15578818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3995943" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.29494798" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -420,13 +368,36 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.24888559" />
+      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.2834728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15578818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.29494798" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.41841003" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -487,17 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Register/MessageCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
-          <folding>
-            <element signature="e#96#111#0" expanded="true" />
-            <element signature="e#175#886#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cookies/MeiTuan/账号.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -546,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyUseDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="e#96#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataMigration/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -583,25 +533,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyPool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1612">
-          <caret line="3" selection-start-line="3" selection-end-line="125" />
-          <folding>
-            <element signature="e#95#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jsencrypt/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jsencrypt/make_encrypt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataMigration/migration/mysql_to_mongo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -613,13 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Decode/translation.py">
+    <entry file="file://$PROJECT_DIR$/zok/save/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="e#96#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -649,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataMigration/migration/mongo_to_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="216">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#97#139#0" expanded="true" />
@@ -659,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataMigration/db/Mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="198">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="e#95#109#0" expanded="true" />
@@ -669,10 +599,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataMigration/db/Redis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="288">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#96#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyUseDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#96#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jsencrypt/make_encrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/MessageCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+          <folding>
+            <element signature="e#96#111#0" expanded="true" />
+            <element signature="e#175#886#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decode/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding>
+            <element signature="e#96#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/XDLProxyPool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+          <folding>
+            <element signature="e#95#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VerificationCode/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VerificationCode/CJY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <element signature="e#192#207#0" expanded="true" />
           </folding>
         </state>
       </provider>

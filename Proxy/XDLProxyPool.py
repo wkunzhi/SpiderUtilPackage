@@ -117,7 +117,7 @@ def aps_run():
 
 
 # 填入提取链接
-xdl = XDLProxyPool('填写讯代理api链接')
+xdl = XDLProxyPool('')
 
 # 循环监控
 scheduler = BlockingScheduler()
