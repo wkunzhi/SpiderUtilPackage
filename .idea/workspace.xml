@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b715ac4-8a1e-4d8d-9a02-1accfdf413d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VerificationCode/CJY.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/XDLProxyPool.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/XDLProxyPool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VerificationCode/CJY.py" beforeDir="false" afterPath="$PROJECT_DIR$/VerificationCode/CJY.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VerificationCode/CJY.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="494">
+              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
               <folding>
                 <element signature="e#192#207#0" expanded="true" />
               </folding>
@@ -117,11 +115,6 @@
             <path>
               <item name="SpiderUtilPackage" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiderUtilPackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderUtilPackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderUtilPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="VerificationCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -342,12 +335,12 @@
       <workItem from="1566739610225" duration="58000" />
       <workItem from="1566889130767" duration="246000" />
       <workItem from="1568270199306" duration="269000" />
-      <workItem from="1570155151945" duration="2232000" />
+      <workItem from="1570155151945" duration="2327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76568000" />
+    <option name="totallyTimeSpent" value="76663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1624" height="1027" extended-state="6" />
@@ -671,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VerificationCode/CJY.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="494">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
             <element signature="e#192#207#0" expanded="true" />
           </folding>

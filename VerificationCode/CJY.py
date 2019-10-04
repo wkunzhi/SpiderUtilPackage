@@ -61,5 +61,5 @@ if __name__ == '__main__':
     response = requests.get('图片链接')  # 图片链接
 
     result = cjy.PostPic(response.content)
-    print('识别结果', result.get('pic_str'))
+    print('这是识别结果', result.get('pic_str'))
 
